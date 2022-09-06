@@ -807,7 +807,9 @@
       function s4_close() {
           mySidebar.style.display = "none";
       }
-      
+      if (window.location.hash) {
+  window.location.href = '/' + window.location.hash.substring(1)
+}
       </script> 
   </body>
 </html>
