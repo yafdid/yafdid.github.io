@@ -813,9 +813,8 @@
       function s4_close() {
           mySidebar.style.display = "none";
       }
-if (window.location.hash) {
-window.location.href = window.location.href.split('#')[0]
-}
+history.pushState(null, document.title, location.pathname + location.search)
+
       </script> 
   </body>
 </html>
