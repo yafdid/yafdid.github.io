@@ -11,7 +11,8 @@ html{
     -webkit-text-size-adjust:100%
 }
 body{
-   background-image:url("images/background/ltotbngnzzu-uai-1600x900.jpg") ;    margin:0
+   background-image:url ("images/background/ltotbngnzzu-uai-1600x900.jpg") ; 
+    margin:0 ;
 }
  article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{
     display:block
